@@ -93,7 +93,7 @@ class main(object):
         gmap3 = gmplot.GoogleMapPlotter(latitudes[0], longitudes[0], 4) 
         gmap3.scatter( latitudes, longitudes, '# FF0000', size = 40, marker = False ) 
         gmap3.plot(latitudes, longitudes,'cornflowerblue', edge_width = 2.5) 
-        gmap3.apikey="AIzaSyA6nUBX6OjXiYI03nxhwe9U2s3LuOIV2_k"
+        gmap3.apikey="#####################"
         gmap3.draw(path_map) 
         
         
